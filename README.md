@@ -7,71 +7,29 @@ So, for example, Louis, Carter, and David took a trip together; Louis incurred e
 
 The output should include each student's name, and how much each student needs to pay out to any others. For simplicity's sake, it is safe to assume three students, two of which pay much less than the third; however, if you want to make it a general-purpose solver to work with any number of students, please feel free.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Start the application with one of the following commands (if you're using an IDE like Eclipse, just run the class `com.pusher.ShoppingCartApplication`):
 
-## Available Scripts
+    ```
+    mvn spring-boot:run
+    ```
+    
+    Or
+    
+    ```
+    mvn package -DskipTests
+    java -jar target/shopping-cart-0.0.1-SNAPSHOT.jar 
+    ```
+    
+Go to `http://localhost:8080` and start playing with the app
 
-In the project directory, you can run:
+### Prerequisites
 
-### `npm start`
+- [A Pusher account](https://pusher.com/)
+- [Java 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+- [Maven](https://maven.apache.org/download.cgi)
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Built With
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+* [Pusher](https://pusher.com/) - APIs to enable devs building realtime features
+* [Maven](https://maven.apache.org/) - Dependency Management
+* [Spring Boot](https://projects.spring.io/spring-boot/) - To create the Spring application
